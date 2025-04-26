@@ -6,7 +6,6 @@ def mask_credit_card(card_number: str) -> str:
     return f"{card_number[:4]} {card_number[4:6]}** **** {card_number[-4:]}"
 
 
-
 def mask_account_number(account_number: str) -> str:
     """Маскирует номер счета, оставляя только последние 4 цифры."""
     account_number = account_number.replace(" ", "")
