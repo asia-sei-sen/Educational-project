@@ -1,5 +1,9 @@
 import pytest
-from src.widget import mask_account_card
+
+from src.widget import (
+    mask_account_card,
+)
+
 
 # Общая фикстура для всех валидных данных
 @pytest.fixture(params=[

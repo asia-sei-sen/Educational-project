@@ -52,8 +52,39 @@ pytest test/ -v
 Для проверки покрытия:
 pytest --cov=src --cov-report=term-missing
 
+# Генератор банковских данных
+
+
+Проект для генерации тестовых данных банковских операций:
+
+## Функционал
+- Генерация номеров карт (`card_number_generator`)
+- Фильтрация транзакций по валюте (`filter_by_currency`)
+- Получение описаний транзакций (`transaction_descriptions`)
+
+## Установка
+```bash
+git clone https://github.com/Asia-Eclipse/Educational-project.git
+cd Educational-project
+pip install -r requirements.txt
+```
+
+## Примеры использования
+```python
+from generators import card_number_generator
+
+# Генерация 5 номеров карт
+for card_number in card_number_generator(1, 5):
+    print(card_number)
+```
+
+## Тестирование
+```bash
+pytest test/
+```
+
 ## Авторы:
-- ASIA_K <sei_senagon@yahoo.com>
+- ASIA_K <sei_senagon@yahoo.com>111
 
 ## Лицензия:
 MIT License

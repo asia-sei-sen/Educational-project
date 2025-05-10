@@ -1,6 +1,12 @@
 import re
-from datetime import datetime
-from src.masks import mask_account_number, mask_credit_card
+from datetime import (
+    datetime,
+)
+
+from src.masks import (
+    mask_account_number,
+    mask_credit_card,
+)
 
 
 def get_date(date_str: str) -> str:
