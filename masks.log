@@ -20,3 +20,25 @@
 [2025-05-18 21:38:27.147712] mask_credit_card ok | args: ('1234567890123456',), kwargs: {}, result: 1234 56** **** 3456
 [2025-05-18 21:38:27.162128] mask_account_number error: ValueError | args: ('безномера',), kwargs: {}
 [2025-05-18 21:38:27.188314] mask_credit_card ok | args: ('7000792289606361',), kwargs: {}, result: 7000 79** **** 6361
+[2025-05-24 16:25:05.540370] mask_credit_card ok | args: ('1234567890123456',), kwargs: {}, result: 1234 56** **** 3456
+[2025-05-24 16:25:05.541115] mask_credit_card ok | args: ('1234 5678 9012 3456',), kwargs: {}, result: 1234 56** **** 3456
+[2025-05-24 16:25:05.541864] mask_credit_card error: ValueError | args: ('1234',), kwargs: {}
+[2025-05-24 16:25:05.571839] mask_account_number ok | args: ('1234567890',), kwargs: {}, result: **7890
+[2025-05-24 16:25:05.572398] mask_account_number ok | args: ('1234 5678 90',), kwargs: {}, result: **7890
+[2025-05-24 16:25:05.572932] mask_account_number error: ValueError | args: ('123',), kwargs: {}
+[2025-05-24 16:25:05.589633] mask_credit_card error: ValueError | args: ('',), kwargs: {}
+[2025-05-24 16:25:05.607840] mask_account_number error: ValueError | args: ('',), kwargs: {}
+[2025-05-24 16:25:05.625498] mask_credit_card ok | args: ('5555666677778888',), kwargs: {}, result: 5555 66** **** 8888
+[2025-05-24 16:25:05.629486] mask_credit_card ok | args: ('5555 6666 7777 8888',), kwargs: {}, result: 5555 66** **** 8888
+[2025-05-24 16:25:05.632841] mask_credit_card error: ValueError | args: ('1',), kwargs: {}
+[2025-05-24 16:25:05.650392] mask_credit_card error: ValueError | args: ('',), kwargs: {}
+[2025-05-24 16:25:05.669094] mask_account_number ok | args: ('11223344',), kwargs: {}, result: **3344
+[2025-05-24 16:25:05.672668] mask_account_number ok | args: ('11 22 33 44',), kwargs: {}, result: **3344
+[2025-05-24 16:25:05.676495] mask_account_number error: ValueError | args: ('1',), kwargs: {}
+[2025-05-24 16:25:05.693955] mask_account_number error: ValueError | args: ('',), kwargs: {}
+[2025-05-24 16:25:05.784720] mask_credit_card ok | args: ('7000792289606361',), kwargs: {}, result: 7000 79** **** 6361
+[2025-05-24 16:25:05.788888] mask_credit_card ok | args: ('5555666677778888',), kwargs: {}, result: 5555 66** **** 8888
+[2025-05-24 16:25:05.792623] mask_account_number ok | args: ('73654108430135874305',), kwargs: {}, result: **4305
+[2025-05-24 16:25:05.803528] mask_credit_card ok | args: ('1234567890123456',), kwargs: {}, result: 1234 56** **** 3456
+[2025-05-24 16:25:05.828729] mask_account_number error: ValueError | args: ('безномера',), kwargs: {}
+[2025-05-24 16:25:05.854976] mask_credit_card ok | args: ('7000792289606361',), kwargs: {}, result: 7000 79** **** 6361
